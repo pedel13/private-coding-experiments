@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function passwordControl(){
+            let passwort = document.getElementById("passwort").value;
+            window.location.href = passwort;
+            
+        }
+    </script>
+    <style>
+        .passworte{
+            height: 5vh;
+            width: 30vw;
+            font-size: 80%;
+            border: none;
+            margin:0px;
+            background-color:
+            rgba(0,0,255,0.4);
+            border-color:none;
+        }
+    </style>
+</head>
+<body>
+    <input type="password" class="passworte" id="passwort" maxlength="40" required> <button class=\"passworte\" onclick=\"passwordControl()\"></button>
+</body>
+</html>
